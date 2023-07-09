@@ -1,0 +1,65 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.twoContainer {
+  display: flex;
+  margin-left: 100px;
+}
+.input {
+  width: 200px;
+  margin-top: 200px;
+}
+.form-floating {
+  border: 2px solid black;
+  border-radius: 5px;
+}
+.mother {
+  display: flex;
+  background-color: rgb(60, 48, 48);
+  margin-top: 10px;
+  padding: 10px;
+  user-select: none;
+}
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  color: white;
+}
+.listItem {
+  list-style: none;
+}
+.tick-button {
+  width: 20px;
+  height: 20px;
+
+  user-select: none;
+  background-color: green;
+}
+.del-button {
+  width: 20px;
+  height: 20px;
+
+  user-select: none;
+
+  background-color: rgb(255, 0, 0);
+}
+.active {
+  text-decoration: line-through;
+}
+.filter {
+  width: 200px;
+
+  margin-top: 200px;
+}
+.selectID {
+  width: 130px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-left: 10px;
+}
